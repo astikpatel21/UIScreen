@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #FFFFFF;
+  --login-page-color: #060613;
+  --input-bg-color: #272341;
+  --continue-btn-bg-color: #3D414B;
+  --continue-btn-text-color: #1C1E2E;
+  --footer-upper-color: #6C6D78;
+  --first-border-gradiant: #181B47;
+  --second-border-gradiant: #12173E;
+
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.main_container{
+    margin: auto;
+    position: relative;
+    background-color: black;
+    height: 97vh;
+}
+
+
+img.background_shadow{
+  position: absolute;
+  top: 18.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  opacity: 70%;
+
+  @media (min-width:425px) {
+    top: 20%;
+  }
+  @media (min-width:475px) {
+    top: 20.5%;
+  }
+  @media (min-width:500px) {
+    top: 21%;
+  }
+    @media (min-width:550px) {
+      top: 21.5%;
+    }
+    @media (min-width:600px) {
+      top: 22%;
+    }
+    @media (min-width:650px) {
+      top: 22.5%;
+    }
+    @media (min-width:700px) {
+      top: 23%;
+    }
+    @media (min-width:750px) {
+      top: 23.5%;
+    }
+    @media (min-width:800px) {
+      top: 24%;
+    }
+    @media (min-width:850px) {
+      top: 24.5%;
+    }
+    @media (min-width:900px) {
+      top: 25%;
+    }
+    @media (min-width:1000px) {
+      top: 26%;
+    }
+    @media (min-width:1100px) {
+      display: none !important;
+    }
+}
+
+.login_form{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    background-image: url(../assets/images/Background.svg);
+    background-size: cover;
+
+}
+
+img.logo{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.login-form-footer {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff50;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.login-form-footer-upper{
+  padding-top: 2px;
+}
+.login-form-footer-lower {
+  padding-top: 50px;
+}
+.login-form-footer a {
+  color: #ffffff90;
+  text-decoration: none;
+}
+
+
+.position_bottom {
+  background-image: url(../assets/images/Mask.svg);
+  background-size: cover;
+  padding: 18px 10px;
+  width: 95%;
+  margin: auto;
+}
+
+.login-footer {
+    text-align: center;
+      color: #ffffff50;
+}
+.login-footer a {
+  color: #ffffff90;
+    text-decoration: none;
+}
+.position-relative{
+  position: relative;
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+  
+  /* .main_container {
+      margin: auto;
+      width: 450px;
+    }
+  img.background_shadow {
+    top: 40px;
+    width: 420px;
+  }
+  .main_container{
+    top: 50px;
+    max-height: -webkit-fill-available;
+  } */
+}

@@ -1,0 +1,230 @@
+
+
+.background{
+  margin: auto;
+  position: relative;
+  background-color: #000201;
+  height:100vh;
+  z-index: 0;
+  overflow: auto;
+  display: flex;
+}
+
+.background_gradient__light{
+    position: absolute;
+    top:95px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right bottom, #3a1f5b70, #351f5670, #2f1e5170, #2b1d4c70, #261c4770, #201b4270, #1b1a3d70, #17193770, #11173070, #0e152870, #0b132170, #080f1970);
+    border-radius: 20px 20px 0 0;
+    width: 93%;
+    height: calc(100% - 95px);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover 0;
+    z-index: 1;
+}
+.background_gradient{
+  position: absolute;
+  top: 107px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(./media/Background.svg);
+  /* background-image: linear-gradient(to right bottom, #3a1f5b, #351f56, #2f1e51, #2b1d4c, #261c47, #201b42, #1b1a3d, #171937, #111730, #0e1528, #0b1321, #080f19); */
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: calc(100% - 107px);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  z-index: 2;
+}
+.signup_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo_image{
+  position: absolute;
+  top: -44.50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main_text{
+  padding-top: 50px;
+  color: white;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.hr_line_left{
+  float: left;
+    width: 44%;
+}
+.hr_line_left {
+  float: right;
+  width: 44%;
+}
+.horizontal_line {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal_line:before,
+.horizontal_line:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+}
+ h1 {
+   display: flex;
+   flex-direction: row;
+ }
+
+.separator {
+  display: flex;
+  align-items: center;
+  width: 92%;
+}
+
+.separator .line {
+  height: 1px;
+  flex: 1;
+  background-color: #ffffff30;
+}
+
+.separator p {
+  padding: 0 16px;
+  color: #ffffff30;
+}
+
+
+.signup_inputs {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.or {
+  margin: 20px 0px;
+}
+form{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.name-email-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 00px 20px 07px 20px;
+  padding: 15px 50px 15px 0px;
+  background-color: #272341 !important;
+  gap: 10px;
+}
+
+.name-email-input input {
+  background: none;
+  border: none;
+  width: 80%;
+}
+
+.name-email-input input:focus {
+  border: none;
+}
+
+.name-email-input input::placeholder {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+.name-email-input input:focus {
+  outline: none;
+  border-color: transparent;
+  color: #FFFFFF;
+}
+
+.continue-btn {
+  background-color: #3D414B;
+  margin: 20px 20px 10px 20px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.continue-btn button {
+  background: none;
+  border: none;
+  margin: auto;
+  color: #1C1E2E;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.639);
+  font-weight: 800;
+}
+.login-form-footer{
+  text-align: center;
+  color: #ffffff50;
+  margin-top: 20px;
+}
+
+.login-form-footer a {
+
+  color: #ffffff90;
+  text-decoration: none;
+}
+
+.already-subscribe-login {
+  position: absolute;
+  background-image: url('./media/Mask.svg');
+  background-size: cover;
+  bottom: 0px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 20px 30px 20px;
+  z-index: 4;
+  text-align: center;
+}
+
+.already-subscribe-login a {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+.already-subscriber {
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.already-subscribe-login a span {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/*  general code */
+
+.d-flex{
+  display: flex;
+}
+.p-relative{
+  position: relative;
+}
+.p-absolute{
+  position: absolute;
+}
+.t-bold{
+  font-weight: 700;
+}
+.all-data{
+  width: 100%;
+}
+
+@media screen and (min-width:650px){
+
+}

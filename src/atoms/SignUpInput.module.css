@@ -1,0 +1,66 @@
+.main{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+.signUpInput{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #d1d0d020;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding-left: 15px; */
+    border-radius: 10px;
+}
+.signUpInput input[type="text"]{
+    justify-self: left;
+    background: none;
+    border: none;
+    margin-left: 10px;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+}
+.signUpInput input[type="submit"]{
+    background: none;
+    border: none;
+    color: #0f0f0f;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+.signUpInput input:focus {
+    border: none;
+  }
+.signUpInput input[type="text"]::placeholder {
+color: #FFFFFF;
+font-weight: 500;
+font-family: 'Inter', sans-serif;
+}
+.signUpInput input[type="text"]:focus {
+outline: none;
+border-color: transparent;
+color: #FFFFFF;
+}
+.signUpInput input[type="submit"]::placeholder {
+color: #000;
+font-weight: 800;
+font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (min-width: 768px) {
+    .main{
+        margin:20px
+    }
+}
+
+
+
+
+

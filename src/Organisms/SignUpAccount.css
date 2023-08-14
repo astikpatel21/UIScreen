@@ -1,0 +1,18 @@
+.title{
+    color: #fff;
+    margin-top: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .largeScreen {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+    }
+}

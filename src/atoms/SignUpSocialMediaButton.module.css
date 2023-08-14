@@ -1,0 +1,32 @@
+.signup_button{
+    width: 85%;
+    /* margin: 20px 20px 10px 20px; */
+    padding: 15px 20px 15px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, #007bff, #c65de1, #ff8b00);
+    background: #ffffff00;
+    border-radius: 20px;
+    border-end-end-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    @media (min-width:768px) {
+      margin: 20px;
+    }
+
+  }
+  .button_text{
+    color: #fff;
+    padding-left: 30px;
+  }
+
+  /* @media (min-width: 768px) {
+    .signup_button {
+      margin: 20px;
+    } */
+    
+  /* }   */
