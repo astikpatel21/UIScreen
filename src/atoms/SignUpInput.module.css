@@ -13,7 +13,6 @@
     padding-top: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    /* padding-left: 15px; */
     border-radius: 10px;
 }
 .signUpInput input[type="text"]{
@@ -56,10 +55,11 @@ font-family: 'Inter', sans-serif;
 
 @media screen and (min-width: 768px) {
     .main{
-        margin:20px
+        margin:20px;
+        width: 350px;
     }
-}
 
+}
 
 
 
