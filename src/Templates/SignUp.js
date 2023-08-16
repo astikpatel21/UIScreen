@@ -18,7 +18,7 @@ const SignUp = () => {
                   <Separator/>
                   <SignUpForm/>
                   <div className='position-relative'>
-                    <div className='login-form-footer'>
+                    <div className='login-terms'>
                       <span className='login-form-footer-upper'>By using the app | agree to the sport</span> <br />
                       <span className='login-form-footer-lower'>
                         <a href="#login" >Terms of Service</a> &  

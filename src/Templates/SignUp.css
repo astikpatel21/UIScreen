@@ -20,7 +20,7 @@ body {
     margin: auto;
     position: relative;
     background-color: black;
-    height: 97vh;
+    height: 100vh;
 }
 
 
@@ -114,13 +114,38 @@ img.logo{
   background-image: url(../assets/images/Mask.svg);
   background-size: cover;
   padding: 18px 10px;
-  width: 95%;
+  width: 98.5%;
   margin: auto;
+  @media (max-width:600px) {
+      width: 92%;
+    }
+  @media (max-width:650px) {
+      width: 95%;
+    }
+  @media (max-width:700px) {
+    width: 96%;
+  }
+  @media (max-width:1100px) {
+    width: 97%;
+  }
+
 }
+.login-terms{
+  text-align: center;
+    color: #ffffff50;
+    font-size: 13px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.login-terms a{
+  color: #ffffff90;
+  text-decoration: none;
+} 
 
 .login-footer {
-    text-align: center;
-      color: #ffffff50;
+  text-align: center;
+  color: #ffffff50;
+  
 }
 .login-footer a {
   color: #ffffff90;
@@ -131,20 +156,14 @@ img.logo{
 
 }
 
-
-
-@media screen and (min-width: 768px) {
-  
-  /* .main_container {
-      margin: auto;
-      width: 450px;
-    }
-  img.background_shadow {
-    top: 40px;
-    width: 420px;
+/* @media screen and (min-width: 768px) {
+  .position_bottom {
+    width: 100%;
   }
-  .main_container{
-    top: 50px;
-    max-height: -webkit-fill-available;
-  } */
 }
+
+@media screen and (max-width: 768px) {
+  .position_bottom{
+    width: 95%;
+  }
+} */
