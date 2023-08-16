@@ -11,9 +11,10 @@ const SignUp = () => {
       <>
         <div className='background_black'>
           <div className='main_container'>
-              {/* <img className='background_shadow'src={mask} alt=""/> */}
-              <div className='background_shadow'></div> 
+              <div className='background_mask'></div>
+
               <div className='login_form'>
+                  <div className='background_shadow'></div> 
                   <img className='logo' src={logo} alt="site logo" />
                   <SignUpAccount/>
                   <Separator/>
@@ -28,7 +29,7 @@ const SignUp = () => {
                     <div className='position_bottom'>
                       <p className='login-footer'>Already a Subscriber? <a href='#/login' className='already-subscriber'><span>Log In </span></a></p>
                     </div>
-                  </div> 
+                  </div>  
               </div>
             
           </div>
