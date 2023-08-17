@@ -3,10 +3,10 @@ import './Separator.css'
 
 const Separator = () => {
   return (
-    <div class="separator">
-        <div class="line"></div>
+    <div className="separator">
+        <div className="line"></div>
         <p className='hr_text'>or</p>
-        <div class="line"></div>
+        <div className="line"></div>
     </div>
   )
 }

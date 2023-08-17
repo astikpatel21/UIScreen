@@ -1,0 +1,24 @@
+.footer {
+  background-image: linear-gradient(to right top, #4d025446, #3f145946, #301e5c46, #20245c46, #0d285a46);
+  border-radius: 25px 25px 0 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  background-size: cover;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer_text {
+  color: #ffffffa2;
+}
+
+.footer_text a {
+  color: #ffffff;
+}
+
+.footer_fullWidth {
+  width: 100%;
+}

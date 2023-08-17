@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .largeScreen {
+    .button_large_screen {
             display: flex;
             justify-content: center;
             margin: 20px;

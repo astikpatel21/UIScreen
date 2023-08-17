@@ -2,6 +2,7 @@
     width: 85%;
     text-align: center;
     margin: auto;
+
 }
 .signUpInput{
     display: flex;
@@ -55,7 +56,6 @@ font-family: 'Inter', sans-serif;
 
 @media screen and (min-width: 768px) {
     .main{
-        margin:20px;
         width: 350px;
     }
 

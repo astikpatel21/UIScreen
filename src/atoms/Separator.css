@@ -4,7 +4,7 @@
     width: 85%;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 20 px;
+    margin-bottom: 20px;
   }
   
   .separator .line {
@@ -42,3 +42,17 @@
     border-bottom: 2px solid #fff;
     margin: auto;
   }
+
+    @media screen and (min-width: 768px) {
+    .separator{
+      width: 85%;
+    }
+    
+    }
+
+    @media screen and (min-width: 850px) {
+      .separator {
+        width: 730px;
+      }
+
+    }
