@@ -16,7 +16,7 @@ body {
 .background__gap {
   flex-grow: 0.15;
   z-index: -1;
-  min-height: 85px;
+  min-height: 140px;
 }
 .background_gradient{
   border-radius: 25px 25px 0 0;

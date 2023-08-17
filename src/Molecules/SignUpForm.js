@@ -20,8 +20,7 @@ const SignUpForm = () => {
           ImageALT='Email Input'
           InputPlaceholder='Email'
         />
-        <br/>
-        <Button type='formSubmit' text='continue' />
+        <Button type='formSubmit' text='Continue' />
     
         {/* <SignUpInput
           type='submit'

@@ -1,10 +1,50 @@
-.separator {
+  .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff75;
+  }
+
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ffffff75;
+  }
+
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+  .separator span{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* .separator {
     display: flex;
     align-items: center;
     width: 85%;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .separator .line {
@@ -55,4 +95,6 @@
         width: 730px;
       }
 
-    }
+    } */
+
+
