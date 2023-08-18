@@ -6,7 +6,8 @@ const BackgroundFrame = (props) => {
     <>
       <div className='main_container'>
         <div className='background__gap'></div>
-        <div className='background_gradient'>
+        <div className='background_color_gradient_image'>
+          {props?.gradient && <div className='background_gradient'></div>}
           {props?.shadow && <div className='background_shadow'></div>}
 
           {props?.logoImage && (
@@ -16,6 +17,10 @@ const BackgroundFrame = (props) => {
               alt={props?.logoALT}
             />
           )}
+
+            {/* <h2>ALL DONE</h2>
+            <p>LOREMddsdgsdfhgfdshh sdbvgyafsiydgvfytisgvdfy huisafhduihsaduyo hsdfuiohuisohfuo hsdiuofhuisdhfuio hsduifdhuioasdh hsuifhuid 
+            </p> */}
           {props.children}
         </div>
       </div>

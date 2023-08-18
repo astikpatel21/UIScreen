@@ -1,17 +1,17 @@
 import React from 'react'
 import './SignUpDetailForm.css'
-import SignUpAccount from '../Molecules/SignUpAccount'
-import Separator from '../atoms/Separator'
-import SignUpForm from '../Molecules/SignUpForm'
-import SectionConditions from '../Molecules/SectionConditions'
+import SocialMediaSignUpButton from '../Molecules/SocialMediaSignUpButton/SocialMediaSignUpButton'
+import Separator from '../atoms/Separator/Separator'
+import SignUpForm from '../Molecules/SignUpForm/SignUpForm'
+import TermsAndPrivacyPolicy from '../Molecules/TermsAndPrivacyPolicy/TermsAndPrivacyPolicy'
 
 const SignUpDetailForm=(props)=> {
   return (
     <>
-      <SignUpAccount />
+      <SocialMediaSignUpButton />
       <Separator />
       <SignUpForm />
-      <SectionConditions />
+      <TermsAndPrivacyPolicy />
     </>
   )
 }

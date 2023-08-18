@@ -1,8 +1,8 @@
 import React from 'react'
 import './SignUp.css'
 import logo from '../assets/images/Profile.svg'
-import BackgroundFrame from '../atoms/BackgroundFrame'
-import AccountHaveFooter from '../Molecules/AccountHaveFooter'
+import BackgroundFrame from '../atoms/BackgroundFrame/BackgroundFrame'
+import SignUpFooter from '../Molecules/SignUpFooter/SignUpFooter'
 import SignUpDetailForm from '../Organisms/SignUpDetailForm'
 
 
@@ -14,9 +14,10 @@ const SignUp = () => {
       LogoSRC={logo}
       logoALT='site-logo'
       shadow={true}
+      gradient={true}
     >
       <SignUpDetailForm/>
-      <AccountHaveFooter text='Already a Subscriber? ' />
+      <SignUpFooter text='Already a Subscriber? ' />
     </BackgroundFrame>
   )
 }

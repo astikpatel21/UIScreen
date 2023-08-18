@@ -14,11 +14,9 @@
 .footer_text {
   color: #ffffffa2;
 }
-
 .footer_text a {
   color: #ffffff;
 }
-
-.footer_fullWidth {
+.fullwidth{
   width: 100%;
 }
